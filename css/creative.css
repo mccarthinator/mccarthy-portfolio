@@ -412,8 +412,10 @@ img::-moz-selection {
   background: transparent;
 }
 
-.contact {
-  padding: 100px 0;
+#contact {
+  padding-top: 20px;
+  height: 250px;
+  width: auto;
 }
 
 div.footer {
@@ -437,7 +439,7 @@ div.container p.text-center {
   margin-top: 20px;
 }
 .carousel .item{
-  min-height: 280px; /* Prevent carousel from being distorted if for some reason image doesn't load */
+  min-height: 400px; /* Prevent carousel from being distorted if for some reason image doesn't load */
 }
 .carousel .item img{
   margin: 0 auto; /* Align slide image horizontally center */
