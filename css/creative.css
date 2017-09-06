@@ -497,6 +497,13 @@ margin: 20px;
   color: #F05F40;
 }
 
+#mail{
+  color: #222222;
+}
+
 body {
   webkit-tap-highlight-color: #222222;
 }
+
+/* media queries for carousel */
+
