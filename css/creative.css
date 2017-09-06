@@ -56,7 +56,7 @@ p {
   color: rgba(255, 255, 255, 0.7);
 }
 section {
-  padding: 100px 0;
+  padding: 80px 0;
 }
 aside {
   padding: 50px 0;
@@ -438,7 +438,7 @@ div.container p.text-center {
 /* carousel  */
 
 .carousel{
-  /* background: #2f4357; */
+  background: #050606;
   margin-top: 20px;
 }
 .carousel .item{
@@ -449,6 +449,52 @@ div.container p.text-center {
 }
 .bs-example{
 margin: 20px;
+}
+
+#sourceless{
+  margin-top: 30px;
+}
+
+#piecebroker{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+#temperancePic{
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+#resume{
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+#photography{
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+.glyphicon-chevron-right:before {
+  margin-right: 20px;
+  color: #E8E8EC;
+}
+
+.glyphicon-chevron-left:before {
+  margin-left: 20px;
+  color: #E8E8EC;
+}
+
+#hearFromYou{
+  margin-top: 20px;
+}
+
+#orangePortfolio{
+  color: #F05F40;
+}
+
+#orangeHR{
+  color: #F05F40;
 }
 
 body {
