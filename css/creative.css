@@ -42,8 +42,11 @@ p {
   line-height: 1.5;
   margin-bottom: 20px;
 }
-.bg-primary {
+#about{
   background-color: #F05F40;
+}
+#portfolio{
+  background-color: rgba(49, 60, 68, 0.83);
 }
 .bg-dark {
   background-color: #222222;
@@ -435,7 +438,7 @@ div.container p.text-center {
 /* carousel  */
 
 .carousel{
-  background: #2f4357;
+  /* background: #2f4357; */
   margin-top: 20px;
 }
 .carousel .item{
