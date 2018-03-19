@@ -1,5 +1,4 @@
 // Initialize Firebase
-// TODO: Replace with your project's customized code snippet
   var config = {
     apiKey: "AIzaSyA3KyPdMZaiXV7XXIPAxMdbkWy0IVcilC0",
     authDomain: "movie-scheduler.firebaseapp.com",
@@ -8,6 +7,7 @@
   
   firebase.initializeApp(config);
 
+//   reference to firebase database
   var movieData = firebase.database();
 
 
