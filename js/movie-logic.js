@@ -32,8 +32,6 @@ $("#clearResults").on("click", function () {
     document.getElementById("movieLengthResult").innerHTML = "";
 });
 
-
-
 //define schedule rules
 
 
