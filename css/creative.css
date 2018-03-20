@@ -483,6 +483,10 @@ margin: 20px;
   margin-bottom: 20px;
 }
 
+#clearResults {
+  color: black;
+}
+
 .glyphicon-chevron-right:before {
   margin-right: 20px;
   color: #E8E8EC;
