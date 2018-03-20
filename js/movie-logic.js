@@ -27,11 +27,9 @@ $("#movieButton").on("click", function() {
 
 });
 
-//on button click, clear resultsDiv.
-$("#clearResults").on("click", function clearBox(resultsDiv) {
-
-    document.getElementById(resultsDiv).innerHTML = "";
-    clearBox();
+//on button click, clear movieLengthResult.
+$("#clearResults").on("click", function () {
+    document.getElementById("movieLengthResult").innerHTML = "";
 });
 
 
