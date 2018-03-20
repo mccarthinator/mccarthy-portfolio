@@ -18,9 +18,14 @@ var movieArray = [
 ];
 
   // on button click, show each movie schedule results. 
-$("#movieButton").on("click", function(){
-    //display data of movie1
-})
+$("#movieButton").on("click", function() {
+    //display data of movie1. iterate.
+    var movieLengthResult = movieArray.map(a => a.length);
+    
+    //now display the length of index 0...or whatever index is clicked
+    console.log(movieLengthResult[0]);
+
+});
 
 //on button click, clear these results.
 
