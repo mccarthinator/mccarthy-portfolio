@@ -23,11 +23,16 @@ $("#movieButton").on("click", function() {
     var movieLengthResult = movieArray.map(a => a.length);
     
     //now display the length of index 0...or whatever index is clicked
-    console.log(movieLengthResult[0]);
+    document.getElementById('movieLengthResult').innerHTML = movieLengthResult[0];
 
 });
 
 //on button click, clear these results.
+$("#clearResults").on("click", function() {
+//code to clear the results currently displayed inside resultsDiv.
+
+});
+
 
 
 //define schedule rules
