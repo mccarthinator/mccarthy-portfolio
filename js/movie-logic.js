@@ -27,10 +27,11 @@ $("#movieButton").on("click", function() {
 
 });
 
-//on button click, clear these results.
-$("#clearResults").on("click", function() {
-//code to clear the results currently displayed inside resultsDiv.
+//on button click, clear resultsDiv.
+$("#clearResults").on("click", function clearBox(resultsDiv) {
 
+    document.getElementById(resultsDiv).innerHTML = "";
+    clearBox();
 });
 
 
