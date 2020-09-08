@@ -48,6 +48,9 @@ p {
 #portfolio{
   background-color: rgba(49, 60, 68, 0.83);
 }
+.blue {
+  color: blue;
+}
 .bg-dark {
   background-color: #222222;
   color: white;
